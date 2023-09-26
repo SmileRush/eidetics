@@ -1,0 +1,34 @@
+{
+  "name": "eidetics",
+  "version": "1.1.14",
+  "description": "",
+  "type": "module",
+  "module": "src/index.js",
+  "types": "src/index.d.ts",
+  "peerDependencies": {
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "scripts": {
+    "version": "npm show eidetics version",
+    "build": "rm -rf src && rollup -c",
+    "postbuild": "node ./commands/find_replace.js",
+    "watch": "nodemon",
+    "patch": "npm version patch",
+    "remove": "../commands/remove.sh",
+    "publish": "npm publish"
+  },
+  "repository": {
+    "url": "https://github.com/SmileRush/eidetics.git"
+  },
+  "author": "SmileRush",
+  "license": "ISC",
+  "files": [
+    "src"
+  ]
+}
