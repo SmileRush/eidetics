@@ -11,7 +11,7 @@ export interface BorderProps {
      * <div border="1px solid black" />
      * ```
      */
-    border?: string | number;
+    border?: string;
     /**
      * 'borderTop' property sets the top border. This property is same as CSS's `border-top` property.
      * 'borderTop' 속성은 상단 테두리를 설정합니다. 이 속성은 CSS의 `border-top` 속성과 같습니다.
@@ -23,7 +23,7 @@ export interface BorderProps {
      * <div borderTop="1px solid black" />
      * ```
      */
-    borderTop?: string | number;
+    borderTop?: string;
     /**
      * 'borderRight' property sets the right border. This property is same as CSS's `border-right` property.
      * 'borderRight' 속성은 우측 테두리를 설정합니다. 이 속성은 CSS의 `border-right` 속성과 같습니다.
@@ -35,7 +35,7 @@ export interface BorderProps {
      * <div borderRight="1px solid black" />
      * ```
      */
-    borderRight?: string | number;
+    borderRight?: string;
     /**
      * 'borderBottom' property sets the bottom border. This property is same as CSS's `border-bottom` property.
      * 'borderBottom' 속성은 하단 테두리를 설정합니다. 이 속성은 CSS의 `border-bottom` 속성과 같습니다.
@@ -47,7 +47,7 @@ export interface BorderProps {
      * <div borderBottom="1px solid black" />
      * ```
      */
-    borderBottom?: string | number;
+    borderBottom?: string;
     /**
      * 'borderLeft' property sets the left border. This property is same as CSS's `border-left` property.
      * 'borderLeft' 속성은 좌측 테두리를 설정합니다. 이 속성은 CSS의 `border-left` 속성과 같습니다.
@@ -59,7 +59,7 @@ export interface BorderProps {
      * <div borderLeft="1px solid black" />
      * ```
      */
-    borderLeft?: string | number;
+    borderLeft?: string;
     /**
      * 'borderColor' property sets the color of the border. This property is same as CSS's `border-color` property.
      * 'borderColor' 속성은 테두리의 색상을 설정합니다. 이 속성은 CSS의 `border-color` 속성과 같습니다.
