@@ -1,0 +1,2 @@
+import e from"../../node_modules/@babel/runtime/helpers/esm/taggedTemplateLiteral.js";import o from"@emotion/styled";import{Div as n}from"../Div/index.js";var r,t=o(n)(r||(r=e(["\n  padding          : 16px;\n  color            : black;\n  border-top       : 1px solid #dee2e6;\n  display          : flex;\n  justify-content  : flex-end;\n"])));export{t as Wrapper};
+//# sourceMappingURL=index.styles.js.map

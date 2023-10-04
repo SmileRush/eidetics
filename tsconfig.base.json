@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "target"                           : "ESNext",
+    "module"                           : "ESNext",
+    "moduleResolution"                 : "Bundler",
+    "lib"                              : ["dom", "dom.iterable", "esnext"],
+    "jsx"                              : "preserve",
+    "jsxImportSource"                  : "@emotion/react",
+    "skipLibCheck"                     : true,
+    "strict"                           : true,
+    "strictNullChecks"                 : true,
+    "esModuleInterop"                  : true,
+    "forceConsistentCasingInFileNames" : true,
+  },
+  "exclude" : ["node_modules"],
+}

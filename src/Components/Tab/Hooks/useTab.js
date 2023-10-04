@@ -1,0 +1,2 @@
+import r from"../../../node_modules/@babel/runtime/helpers/esm/slicedToArray.js";import{useState as e,useContext as t}from"react";import{Context as o}from"../Provider/Context.js";var a=function(){var t=e(0),o=r(t,2),a=o[0],n=o[1];return{activeTab:a,setActiveTab:n,changeTab:function(r){var e=r.tabId;return n(e)}}},n=function(){var r=t(o);if(null===r)throw new Error("useTab must be used within a TabProvider");return r};export{a as _useTab,n as useTab};
+//# sourceMappingURL=useTab.js.map

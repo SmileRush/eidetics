@@ -12,15 +12,18 @@
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
-    "nodemon": "^3.0.1"
+    "nodemon": "^3.0.1",
+    "rollup-plugin-dts": "^6.0.2"
   },
   "scripts": {
     "version": "npm show eidetics version",
-    "build": "rm -rf src && rollup -c",
+    "remove": "./commands/remove_comments.sh",
+    "combine": "./commands/combine_comments.sh",
+    "build": "rm -rf src types && rollup -c",
     "postbuild": "node ./commands/find_replace.js",
-    "watch": "nodemon",
+    "prewatch": "node ./configs/create-configs.js",
+    "watch": "nodemon --config ./configs/nodemon.config.json",
     "patch": "npm version patch",
-    "remove": "../commands/remove.sh",
     "publish": "npm publish"
   },
   "repository": {

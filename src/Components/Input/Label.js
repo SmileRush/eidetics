@@ -1,2 +1,2 @@
-import{__makeTemplateObject as r}from"tslib";import o from"react";import e from"@emotion/styled";var t,n=function(r){var e=r.children;return o.createElement(l,null,e)},l=e.label(t||(t=r(["\n  color: red;\n"],["\n  color: red;\n"])));export{n as Label};
+import e from"../../node_modules/@babel/runtime/helpers/esm/taggedTemplateLiteral.js";import r from"@emotion/styled";import{jsx as o}from"react/jsx-runtime";var t,m=function(e){var r=e.children;return o(l,{children:r})},l=r.label(t||(t=e(["\n  color: red;\n"])));export{m as Label};
 //# sourceMappingURL=Label.js.map

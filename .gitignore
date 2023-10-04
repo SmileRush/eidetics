@@ -1,11 +1,13 @@
+Notebook
 nodemon.json
 rollup.config.js
 tsconfig.json
-.DS_Sotre
-configs
+.DS_Store
+
+.vscode
 commands
-code
-mynote.txt
+configs
+src_code
 
 # Dependency directories
 node_modules/

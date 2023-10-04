@@ -1,0 +1,1 @@
+{"version":3,"file":"Context.js","sources":["../../../../src_code/Components/Modal/Provider/Context.tsx"],"sourcesContent":["import { createContext } from 'react';\nimport { ModalTypes } from '../Types';\n\nexport const Context = createContext<ModalTypes['State'] | null>(null);"],"names":["Context","createContext"],"mappings":"0CAGaA,EAAUC,EAA0C"}

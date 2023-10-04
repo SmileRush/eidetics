@@ -1,2 +1,2 @@
-import { ModalType } from './Modal.types';
-export declare const Modal: ModalType;
+import { ModalTypes } from './Types';
+export declare const Modal: ModalTypes['Parts'];

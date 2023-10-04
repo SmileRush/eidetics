@@ -1,0 +1,2 @@
+import e from"../../../node_modules/@babel/runtime/helpers/esm/taggedTemplateLiteral.js";import"../../../node_modules/@babel/runtime/regenerator/index.js";import o from"@emotion/styled";import{useModal as r}from"../Hooks/useModal.js";import{jsx as t}from"react/jsx-runtime";var n,i=function(e){e.type,e.afterClick;var o=e.children,n=void 0===o?"Button":o,i=r().closeModal;return t(m,{onClick:i,children:n})},m=o.button(n||(n=e(["\n  cursor: pointer;\n\n  &:hover {\n    color: #007BFF;\n  }\n"])));export{i as Button};
+//# sourceMappingURL=Button.js.map

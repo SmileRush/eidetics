@@ -1,0 +1,1 @@
+{"version":3,"file":"Context.js","sources":["../../../../src_code/Components/Tab/Provider/Context.tsx"],"sourcesContent":["import { createContext } from 'react';\nimport { TabTypes } from '../Types';\n\nexport const Context = createContext<TabTypes['State'] | null>(null)"],"names":["Context","createContext"],"mappings":"0CAGaA,EAAUC,EAAwC"}

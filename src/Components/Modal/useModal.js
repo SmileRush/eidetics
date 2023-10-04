@@ -1,2 +1,0 @@
-import r from"react";import{ModalContext as o}from"./ModalContext.js";var t=function(){var o=r.useState(!1),t=o[0],e=o[1];return{isOpen:t,openModal:function(){return e(!0)},closeModal:function(){return e(!1)}}},e=function(){var t=r.useContext(o);if(null===t)throw new Error("useModal must be used within a ModalProvider");return t};export{e as useModal,t as useModalToProvider};
-//# sourceMappingURL=useModal.js.map
