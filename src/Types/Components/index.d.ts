@@ -1,5 +1,6 @@
+import { ClassAttributes } from './ClassAttributes';
 import { HTMLAttributes } from './HTMLAttributes';
 import { DOMAttributes } from './DOMAttributes';
-interface AllComponentsProps extends HTMLAttributes, DOMAttributes {
+interface AllComponentsProps extends DOMAttributes, HTMLAttributes {
 }
-export { HTMLAttributes, DOMAttributes, AllComponentsProps, };
+export { ClassAttributes, DOMAttributes, HTMLAttributes, AllComponentsProps, };

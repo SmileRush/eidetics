@@ -26,8 +26,7 @@ interface HeaderProps extends ModalState, CommonProps, AllProps {
 }
 interface TogglerProps extends ModalState, CommonProps, AllProps {
 }
-export interface ProviderProps extends ModalState, CommonProps, AllProps {
-    abcd: string;
+interface ProviderProps extends ModalState, CommonProps, AllProps {
 }
 export type ModalTypes = {
     State: ModalState;

@@ -1,6 +1,6 @@
 {
   "name": "eidetics",
-  "version": "1.1.17",
+  "version": "1.1.18",
   "description": "",
   "type": "module",
   "module": "src/index.js",
@@ -10,10 +10,6 @@
     "@emotion/styled": "^11.11.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
-  },
-  "devDependencies": {
-    "nodemon": "^3.0.1",
-    "rollup-plugin-dts": "^6.0.2"
   },
   "scripts": {
     "version": "npm show eidetics version",
