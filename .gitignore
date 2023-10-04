@@ -2,7 +2,10 @@ Notebook
 nodemon.json
 rollup.config.js
 tsconfig.json
+tsconfig.base.json
 .DS_Store
+*/.DS_Store
+src/_virtual
 
 .vscode
 commands
