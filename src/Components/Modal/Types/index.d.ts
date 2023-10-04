@@ -16,7 +16,7 @@ interface BodyProps extends ModalState, CommonProps, AllProps {
  */
 interface ButtonProps extends ModalState, CommonProps, AllProps {
     type: ModalButton_Type;
-    afterClick: Record<ModalButton_Type, ModalButton_AfterClick>;
+    afterClick: ModalButton_AfterClick;
 }
 interface ContainerProps extends ModalState, CommonProps, AllProps {
 }
